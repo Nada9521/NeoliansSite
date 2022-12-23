@@ -443,7 +443,15 @@ public static void openLinkedlndfromfooterbar() {
 
     }
 
+    public static void openPageContact() {
+        PageHome.url.openUrl();
+        PageMenu.contact.click();
 
+    }
+    public static void openNousContactFromFooterBar(){
+        PageHome.url.openUrl();
+        PageFooter.nousContacter.click();
+    }
 
 }
 

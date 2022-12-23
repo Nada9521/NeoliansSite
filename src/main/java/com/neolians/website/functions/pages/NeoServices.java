@@ -39,13 +39,12 @@ public class NeoServices {
 
     }
 
-    public static void openneotradepuislasoussectionneoservices() {
+    public static void openneotradepuislasoussectionneoservices()
+    {
         PageNeoServices.neoTRA.click();
     }
 
-        public static void openneotradepuislasoussectionneoservices(){
-      
-        PageNeoServices.neoTRA.click();
+
     }
 
-}
+

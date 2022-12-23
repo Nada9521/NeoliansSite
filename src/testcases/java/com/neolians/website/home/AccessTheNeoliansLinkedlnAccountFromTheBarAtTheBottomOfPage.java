@@ -5,6 +5,8 @@ import com.neolians.website.functions.general.Errors;
 import com.neolians.website.functions.general.Footer;
 import com.neolians.website.functions.general.Menu;
 import com.neolians.website.functions.pages.Home;
+import com.neolians.website.functions.pages.LinkedlnFromFooterBar;
+import com.neolians.website.functions.pages.LinkedlnFromTopBar;
 import com.neolians.website.functions.pages.NosProjets;
 import com.neolians.website.repository.general.PageFooter;
 import com.neolians.website.repository.general.PageMenu;
@@ -30,5 +32,9 @@ public class AccessTheNeoliansLinkedlnAccountFromTheBarAtTheBottomOfPage extends
 
         Report.newStep(5, "Verifie le bouton linkedln en haut de page");
         Home.openLinkedlndepuislabarreenhautdepage();
+
+        Report.newStep(6, "Verify content linkedln from Top bar page");
+        LinkedlnFromTopBar.openPagelinkedlnfromtopbar();
+
     }
 }

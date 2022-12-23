@@ -7,9 +7,10 @@ import com.neolians.website.functions.general.Menu;
 import com.neolians.website.functions.pages.Home;
 import com.neolians.website.functions.pages.NeoConseil;
 import com.neolians.website.functions.pages.NeoServices;
+import com.neolians.website.utils.report.NeoliansTestcase;
 import io.github.artsok.RepeatedIfExceptionsTest;
 
-public class AccessTheNeoServicesFromTheNosOffresSection {
+public class AccessTheNeoServicesFromTheNosOffresSection  extends NeoliansTestcase {
 
     @RepeatedIfExceptionsTest(repeats = 1, suspend = 5000L, name = "Check Neo.services Page")
     void checkNeoServicesPage() {
